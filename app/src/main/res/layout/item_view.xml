@@ -19,6 +19,7 @@
 
             <ImageView
                 android:id="@+id/ivImage"
+                android:scaleType="centerCrop"
                 android:layout_width="@dimen/_80sdp"
                 android:layout_height="@dimen/_80sdp" />
 
@@ -49,7 +50,7 @@
                     android:layout_width="@dimen/_10sdp"
                     android:layout_height="@dimen/_10sdp"
                     android:layout_gravity="center_vertical"
-                    android:background="@color/black"
+                    android:src="@drawable/star"
                     />
                 <TextView
                     android:id="@+id/tvRating"
